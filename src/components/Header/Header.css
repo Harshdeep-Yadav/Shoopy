@@ -1,0 +1,29 @@
+.header-container{
+    margin-top: 20px;
+}
+.header-container p{
+    margin-top: 10px;
+    color: grey;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item-name{
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.item-name span{
+    font-weight: lighter;
+}
+.item-name ~ p{
+    font-weight:normal;
+    font-size: medium;
+    
+}
